@@ -1,0 +1,138 @@
+.header-container
+{
+      /* The image used */
+    background-image: url(IMAGES/contactImage.png);
+    
+    width: 100%;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0!important;
+}
+
+section 
+{
+    padding: 100px 0;
+    
+    
+}
+
+a
+{
+    text-decoration: none;
+    color:transparent;
+}
+
+
+
+/*bg- white*/
+.bg-white1
+{
+    background-image: url(IMAGES/huggingImage.jpg);
+    background-position: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:transparent;
+    width: 100%;
+}
+
+.bg-white1-1
+{
+   background-position: right; 
+}
+
+.bg-white1:hover .bg-white1-1
+{
+    transition: all 3s ease-in;
+    background-color: #d1d1d1!important;
+    background-image: url(IMAGES/telephoneImage.jpg);
+    background-position: left;
+    background-size: 22%;
+    background-repeat: no-repeat;
+    color: black
+    
+}
+
+.bg-white1:hover h2
+{
+    transition: all 3s ease-in-out;
+     -webkit-text-stroke: 2px #0000;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    color: #D53F40;
+}
+
+
+.bg-white1:hover a
+{
+     transition: all 3s ease-in;
+    color: black;
+}
+
+
+/*bg- light*/
+.bg-light1
+{
+    background-image: url(IMAGES/notImage.jpg);
+    background-position: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:transparent;
+    width: 100%;
+}
+
+.bg-light1-1
+{
+   background-position: left; 
+}
+
+.bg-light1:hover .bg-light1-1
+{
+    transition: all 3s ease-in;
+    background-color: #e5e5e5!important;
+    background-image: url(IMAGES/pointingImage.jpg);
+    background-position: right;
+    background-size: 22%;
+    background-repeat: no-repeat;
+    color: black
+    
+}
+
+.bg-light1:hover h2
+{
+    transition: all 3s ease-in-out;
+     -webkit-text-stroke: 2px #0000;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    color: #D2E7DE;
+}
+
+
+.bg-light1:hover a
+{
+     transition: all 3s ease-in;
+    color: black;
+}
+
+
+.container-h1 
+{
+  width: 70%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

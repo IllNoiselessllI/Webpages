@@ -1,0 +1,178 @@
+.header-container
+{
+      /* The image used */
+    background-image: url(IMAGES/storyImage.jpg);
+    
+    width: 100%;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0!important;
+}
+
+section 
+{
+    padding: 100px 0;
+    
+    
+}
+
+/*bg-white*/
+.bg-white1
+{
+    background-image: url(IMAGES/characters.jpg);
+    background-position: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:transparent;
+    width: 100%;
+}
+
+.bg-white1-1
+{
+   background-position: right; 
+}
+
+.bg-white1:hover .bg-white1-1
+{
+    transition: all 3s ease-in;
+    background-color: #d1d1d1!important;
+    background-image: url(IMAGES/cardImage.jpg);
+    background-position: left;
+    background-size: 22%;
+    background-repeat: no-repeat;
+    color: black
+    
+}
+
+.bg-white1:hover h2
+{
+    transition: all 3s ease-in-out;
+     -webkit-text-stroke: 2px #0000;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    color: #D53F40;
+}
+
+
+
+
+.bg-white2
+{
+    background-image: url(IMAGES/review.jpg);
+    background-position: left;
+     width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:transparent;
+   
+}
+
+.bg-white2-1
+{
+   background-position: right; 
+}
+
+.bg-white2:hover .bg-white2-1
+{
+    transition: all 3s ease-in;
+    background-color: #d1d1d1!important;
+    background-image: url(IMAGES/soapImage.jpg);
+    background-position: left;
+    background-size: 22%;
+    background-repeat: no-repeat;
+    color: black
+    
+}
+
+.bg-white2:hover h2
+{
+    transition: all 3s ease-in-out;
+     -webkit-text-stroke: 2px #0000;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    color: #D53F40;
+}
+
+
+
+/*bg-light*/
+.bg-light1
+{
+    background-image: url(IMAGES/plot.jpg);
+    background-position: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:transparent;
+    width: 100%;
+}
+
+.bg-light1-1,.bg-light1-2,.bg-light1-3
+{
+   background-position: left; 
+}
+
+.bg-light1:hover .bg-light1-1
+{
+    transition: all 3s ease-in;
+    background-color: #e5e5e5!important;
+    background-image: url(IMAGES/twosidedImage.jpg);
+    background-position: right;
+    background-size: 22%;
+    background-repeat: no-repeat;
+    color: black
+    
+}
+
+.bg-light1:hover .bg-light1-2
+{
+    transition: all 3s ease-in;
+    background-color: #e5e5e5!important;
+    background-image: url(IMAGES/fightImage.jpg);
+    background-position: right;
+    background-size: 22%;
+    background-repeat: no-repeat;
+    color: black
+}
+
+.bg-light1:hover .bg-light1-3
+{
+     transition: all 3s ease-in;
+    background-color: #e5e5e5!important;
+    background-image: url(IMAGES/kidnappImage.jpg);
+    background-position: right;
+    background-size: 22%;
+    background-repeat: no-repeat;
+    color: black
+}
+
+.bg-light1:hover h2
+{
+    transition: all 3s ease-in-out;
+     -webkit-text-stroke: 2px #0000;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    color: #D2E7DE;
+}
+
+
+
+

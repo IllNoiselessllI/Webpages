@@ -1,0 +1,4 @@
+Ändern der Text-Schriftart
+Behebung der, von HTML nicht anzeigbaren, Buchstaben, durch Entity Name
+Fertigstellung des Designs 
+7.Iteration

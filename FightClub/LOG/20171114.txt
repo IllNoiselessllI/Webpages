@@ -1,0 +1,11 @@
+3.Iteration
+Anfangen mit design der seiten
+Fertigstellung einer Navigationsleiste
+Gliederung der Seite als Vorlage für die folgenden Seiten
+Anpassung des Farbschemas und Hintergründe
+Anpassung der Schriftart
+Einfügen der Scroll Animation
+Bildersuche & Quoten
+4.Iteration
+Fertigstellung des groben Designs von Info & Contactpage
+Anfang der Storypage

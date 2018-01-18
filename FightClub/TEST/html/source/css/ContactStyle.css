@@ -1,0 +1,46 @@
+.contact-header
+{
+      /* The image used */
+    background-image: url(IMAGES/contactImage.png);
+    
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:100px !important;
+}
+
+section 
+{
+    padding: 100px 0;
+    
+    
+}
+
+.bg-white
+{
+    background-image: url(IMAGES/telephoneImage.jpg);
+    background-position: left;
+    background-size: 22%;
+    background-repeat: no-repeat;
+}
+
+.bg-light 
+{
+  background-color: #e5e5e5!important;
+    background-image: url(IMAGES/pointingImage.jpg);
+    background-position: right;
+    background-size: 22%;
+    background-repeat: no-repeat;
+}
+
+.container-h1 
+{
+  width: 60%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

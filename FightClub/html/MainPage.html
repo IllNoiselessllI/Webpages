@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <link rel="shortcut icon" type="image/png" href="source/css/favicon/fist.png"/>
+        <title>Fight Club</title>
+        <link rel="stylesheet" type="text/css" href="source/css/MainStyle.css">    
+        
+        
+    </head>
+
+
+    <body>
+        
+
+        <div id="hidden" class="hidden">This is your life <p></p>and it's ending <p></p> one minute at a time</div>
+
+
+        <a id="left" class="left" href="InfoPage.html" ><h2>Rule Nr.1</h2><p>You do</p><p> not talk </p><p>about</p><p> Fight Club</p></a>
+
+        <a id="right" class="right" href="StoryPage.html"><h2>Rule Nr.2</h2><p>You DO </p><p> NOT TALK </p><p>ABOUT </p><p>FIGHT CLUB</p></a> 
+
+         <a id="bottom" class="bottom" href="ContactPage.html"><p>It's only after we've lost everything that we're free to do anything</p></a>
+         
+            
+        
+           
+   
+    
+    
+    <script>
+    
+  var pictureState = true;
+
+function pictureChanging() {
+  var timeout;
+
+  if (pictureState) {
+    document.body.style.backgroundImage = "url('source/css/IMAGES/introImage.jpg')";
+      
+      document.getElementById('left').style.opacity = 1;
+      document.getElementById('right').style.opacity = 1;
+      document.getElementById('bottom').style.opacity = 1;
+      document.getElementById('hidden').style.opacity = 0; 
+      
+
+    timeout = Math.random(50000-20000) + 20000;
+  } else {
+    document.body.style.backgroundImage = "url('source/css/IMAGES/introInvertImage.jpg')";
+      document.getElementById('left').style.opacity = 0;
+      document.getElementById('right').style.opacity = 0;
+      document.getElementById('bottom').style.opacity = 0;
+     document.getElementById('hidden').style.opacity = 1; 
+      
+
+    timeout = 2300;
+  }
+
+  pictureState = !pictureState;
+
+  setTimeout(function() {
+    pictureChanging();
+  }, timeout);
+}
+
+pictureChanging();
+    
+    
+ 
+
+</script>
+        </body>
+</html>

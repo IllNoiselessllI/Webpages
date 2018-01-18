@@ -1,0 +1,8 @@
+1.Erstellung der Grundlage für die Mainpage
+2.Erstellung der Mainpage
+3.Erstellung einer groben Oberfläche für die weiteren Seiten
+4.Erstellung eines Designs für die Webseiten
+5.Erstellung der pcuh(picture cover until hover)
+6.Funktionierendes Design mit Taransitionen 
+7.Einfügung der Texte
+8.Behebung kleinerer Design Fehler  - Fertigstellung

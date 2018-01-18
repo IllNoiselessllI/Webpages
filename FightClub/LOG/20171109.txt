@@ -1,0 +1,3 @@
+Erwiterung des Pflichtenheftes durch Veröffentlichung
+Herumprobieren an einem template um in ccs & html hineinzukommen
+Verwerfung des Ideentempaltes

@@ -1,0 +1,4 @@
+Fertigstellung des Pflichtenheftes
+-Use cases
+-Umsetzungsdetails
+Findung einer Idee für die Webseite

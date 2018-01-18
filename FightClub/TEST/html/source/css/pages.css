@@ -1,0 +1,140 @@
+body, html 
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Arial, sans-serif;
+}
+
+h1,h2
+{
+    font-family: 'fightthisregular';
+    font-size: 25px;
+}
+
+
+header
+{
+    text-align: center;
+    top: 2%;
+}
+
+header h1
+{
+    font-family: 'fightthisregular';
+    font-size: 100px;
+    padding: 20px;
+}
+
+
+header h2
+{
+    font-family: 'fightthisregular';
+    font-size: 50px;
+}
+
+.navbar 
+{
+    overflow: hidden;
+    background-image: url(IMAGES/introImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .nav-container
+{
+    padding: 0px 40px !important;
+}
+
+.navbar a 
+{
+    font-family: 'fightthisregular';
+    float: left;
+    display: block;
+    color: #fb6a6a;
+    text-align: center;
+    padding: 10px 16px 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar a:hover
+{
+    color: #ff0000;
+}
+
+.navbar .nav-item
+{
+    font-family: 'fightthisregular';
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.navbar .wrapper a
+{
+    color: #cff9fc;
+    padding: 10px 16px;
+    font-size: 20px;
+}
+
+.navbar .wrapper a:hover 
+{
+    color: #0aedff;
+}
+
+.main 
+{
+    padding: 0px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+.container 
+{
+    width: 55%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 0;
+    padding-top: 0; 
+}
+
+
+
+.footer-section
+{
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    left: 0;
+    padding: 20px!important;
+}
+
+.footer-section a
+{
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: 'fightthisregular';
+    src: url('font/fightt3_-webfont.woff2') format('woff2'),
+         url('font/fightt3_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
